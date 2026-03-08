@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BEST IPTV — The Pinnacle of Premium Streaming</title>
+<meta name="description" content="BEST IPTV — The world's most refined streaming experience. 20,000+ live channels, 60,000+ Movies & Series in true 8K / 4K quality.">
+<meta name="keywords" content="best IPTV, premium IPTV 2025, 8K IPTV, luxury IPTV, ultra HD streaming, zero buffering IPTV">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Jost:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+
+/* ══════════════════════════════════
+   ROOT VARIABLES — Pure B&W Luxury
+══════════════════════════════════ */
+:root {
+  --black:       #000000;
+  --black-rich:  #0A0A0A;
+  --black-soft:  #111111;
+  --black-mid:   #1A1A1A;
+  --black-card:  #141414;
+  --charcoal:    #222222;
+  --grey-deep:   #333333;
+  --grey-mid:    #555555;
+  --grey-light:  #888888;
+  --grey-pale:   #AAAAAA;
+  --silver:      #CCCCCC;
+  --white-warm:  #F8F8F6;
+  --white-pure:  #FFFFFF;
+  --white-off:   #F2F2F0;
+  --white-card:  #FAFAFA;
+
+  /* Borders & dividers */
+  --b-dark:   rgba(255,255,255,0.08);
+  --b-mid:    rgba(255,255,255,0.12);
+  --b-light:  rgba(255,255,255,0.18);
+  --b-bright: rgba(255,255,255,0.35);
+
+  --b-dk-dark:  rgba(0,0,0,0.08);
+  --b-dk-mid:   rgba(0,0,0,0.12);
+  --b-dk-light: rgba(0,0,0,0.18);
+
+  /* Shadows */
+  --sh-sm:  0 2px 12px rgba(0,0,0,0.12);
+  --sh-md:  0 8px 32px rgba(0,0,0,0.18);
+  --sh-lg:  0 20px 60px rgba(0,0,0,0.25);
+  --sh-xl:  0 40px 100px rgba(0,0,0,0.35);
+
+  /* On light bg */
+  --sh-lsm: 0 2px 12px rgba(0,0,0,0.06);
+  --sh-lmd: 0 8px 32px rgba(0,0,0,0.10);
+  --sh-llg: 0 20px 60px rgba(0,0,0,0.14);
+
+  --r: 4px;
+  --r-md: 8px;
+  --r-lg: 16px;
+}
+
+/* ══════════════════════════════════
+   RESET
+══════════════════════════════════ */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; font-size:16px; }
+body {
+  background: var(--black-rich);
+  color: var(--white-warm);
+  font-family: 'Jost', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  cursor: none;
+}
+::-webkit-scrollbar { width:3px; }
+::-webkit-scrollbar-track { background: var(--black-soft); }
+::-webkit-scrollbar-thumb { background: var(--white-warm); border-radius:2px; }
+img { max-width:100%; display:block; }
+a { text-decoration:none; color:inherit; }
+
+/* Custom Cursor */
+.cursor {
+  position: fixed; top:0; left:0;
+  width: 8px; height: 8px;
+  background: var(--white-pure);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%,-50%);
+  transition: transform 0.08s ease, width 0.2s ease, height 0.2s ease, background 0.2s ease;
+  mix-blend-mode: difference;
+}
+.cursor-ring {
+  position: fixed; top:0; left:0;
+  width: 36px; height: 36px;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  transform: translate(-50%,-50%);
+  transition: transform 0.18s ease, width 0.3s ease, height 0.3s ease, opacity 0.3s ease;
+}
+.cursor-ring.hover { width:60px; height:60px; opacity:0.6; }
+@media(max-width:768px){ .cursor, .cursor-ring { display:none; } }
+
+/* ══════════════════════════════════
+   GRAIN OVERLAY
+══════════════════════════════════ */
+.grain {
+  position: fixed; inset:0; z-index:9997;
+  pointer-events: none;
+  opacity: 0.028;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 200px;
+}
+
+/* ══════════════════════════════════
+   TYPOGRAPHY UTILITIES
+══════════════════════════════════ */
+.display {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  line-height: 1.0;
+  letter-spacing: -0.02em;
+}
+.serif { font-family: 'Playfair Display', serif; }
+.baskerville { font-family: 'Libre Baskerville', serif; }
+.caps {
+  font-family: 'Jost', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+/* ══════════════════════════════════
+   BUTTONS
+══════════════════════════════════ */
+.btn {
+  display: inline-flex; align-items:center; gap:.6rem;
+  font-family: 'Jost', sans-serif;
+  font-weight: 500; font-size: .78rem;
+  letter-spacing: .18em; text-transform:uppercase;
+  padding: .85rem 2.2rem;
+  border-radius: 0;
+  cursor: pointer; border: none;
+  transition: all .3s cubic-bezier(.4,0,.2,1);
+  white-space: nowrap;
+  position: relative; overflow: hidden;
+}
+.btn::after {
+  content: '';
+  position: absolute; inset:0;
+  background: rgba(255,255,255,0.06);
+  transform: translateX(-100%);
+  transition: transform .3s ease;
+}
+.btn:hover::after { transform: translateX(0); }
+
+.btn-white {
+  background: var(--white-pure);
+  color: var(--black-rich);
+  box-shadow: 0 4px 24px rgba(255,255,255,0.12);
+}
+.btn-white:hover { transform:translateY(-2px); box-shadow:0 8px 40px rgba(255,255,255,0.2); }
+
+.btn-outline-w {
+  background: transparent;
+  color: var(--white-warm);
+  border: 1px solid var(--b-light);
+}
+.btn-outline-w:hover { border-color:var(--white-pure); transform:translateY(-2px); }
+
+.btn-outline-b {
+  background: transparent;
+  color: var(--black-rich);
+  border: 1px solid rgba(0,0,0,0.25);
+}
+.btn-outline-b:hover { background: var(--black-rich); color: var(--white-warm); transform:translateY(-2px); }
+
+.btn-black {
+  background: var(--black-rich);
+  color: var(--white-warm);
+  border: 1px solid var(--grey-deep);
+}
+.btn-black:hover { background: var(--charcoal); transform:translateY(-2px); }
+
+.btn-wa {
+  background: #1a1a1a;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.15);
+}
+.btn-wa:hover { background: #2a2a2a; transform:translateY(-2px); }
+.btn-full { width:100%; justify-content:center; }
+
+/* ══════════════════════════════════
+   HEADER
+══════════════════════════════════ */
+#hdr {
+  position: fixed; top:0; left:0; width:100%; z-index:1000;
+  height: 72px;
+  display: flex; align-items:center; justify-content:space-between;
+  padding: 0 5%;
+  background: transparent;
+  border-bottom: 1px solid transparent;
+  transition: background .4s, border-color .4s, box-shadow .4s;
+}
+#hdr.on {
+  background: rgba(10,10,10,0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-bottom-color: var(--b-dark);
+  box-shadow: 0 1px 40px rgba(0,0,0,0.4);
+}
+.logo-wrap { display:flex; align-items:center; gap:.8rem; flex-shrink:0; }
+.logo-mark {
+  width: 36px; height:36px;
+  border: 1px solid var(--b-light);
+  display: flex; align-items:center; justify-content:center;
+  font-size: 1rem; color: var(--white-warm);
+  position: relative;
+}
+.logo-mark::before {
+  content:'';
+  position:absolute; inset:-4px;
+  border: 1px solid var(--b-dark);
+}
+.logo-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem; font-weight:700;
+  color: var(--white-warm);
+  letter-spacing: .04em;
+}
+.logo-text em { font-style:italic; color: var(--silver); }
+nav { display:flex; align-items:center; gap:2rem; }
+nav a {
+  font-size: .72rem; font-weight:400; letter-spacing:.18em; text-transform:uppercase;
+  color: var(--grey-pale); transition: color .2s;
+}
+nav a:hover { color: var(--white-pure); }
+.hdr-cta { display:flex; align-items:center; gap:.8rem; }
+.ham { display:none; background:none; border:none; cursor:pointer; flex-direction:column; gap:5px; padding:4px; }
+.ham span { display:block; width:22px; height:1px; background:var(--white-warm); transition:.3s; }
+
+/* ══════════════════════════════════
+   HERO
+══════════════════════════════════ */
+#hero {
+  min-height: 100vh;
+  display: flex; align-items: center;
+  padding: 0 5%;
+  position: relative;
+  overflow: hidden;
+  background: var(--black-rich);
+}
+
+/* Dramatic BG layers */
+.hero-bg {
+  position: absolute; inset:0; pointer-events:none; overflow:hidden;
+}
+.hbg-radial-1 {
+  position:absolute;
+  width:800px; height:800px;
+  border-radius:50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.028) 0%, transparent 70%);
+  top:-200px; right:-100px;
+  animation: hbg1 8s ease-in-out infinite;
+}
+.hbg-radial-2 {
+  position:absolute;
+  width:600px; height:600px;
+  border-radius:50%;
+  background: radial-gradient(circle, rgba(255,255,255,0.015) 0%, transparent 70%);
+  bottom:-100px; left:-100px;
+  animation: hbg1 10s ease-in-out infinite reverse;
+}
+@keyframes hbg1 {
+  0%,100% { transform: scale(1) translate(0,0); }
+  50% { transform: scale(1.08) translate(20px,-20px); }
+}
+/* Fine grid */
+.hbg-grid {
+  position:absolute; inset:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+  background-size: 80px 80px;
+  mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 0%, transparent 100%);
+}
+/* Vertical lines */
+.hbg-vline {
+  position:absolute; top:0; bottom:0; width:1px;
+  background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.06), transparent);
+}
+.hbg-vline:nth-child(1){ left:20%; }
+.hbg-vline:nth-child(2){ left:40%; }
+.hbg-vline:nth-child(3){ left:60%; }
+.hbg-vline:nth-child(4){ left:80%; }
+
+.hero-inner {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative; z-index:2;
+  padding-top: 80px;
+}
+
+.h-kicker {
+  display: inline-flex; align-items:center; gap:.7rem;
+  margin-bottom: 2rem;
+}
+.h-kicker-line { width:40px; height:1px; background:var(--silver); }
+.h-kicker-text {
+  font-family: 'Jost', sans-serif;
+  font-size: .68rem; font-weight:500; letter-spacing:.25em; text-transform:uppercase;
+  color: var(--silver);
+}
+h1.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(3.2rem, 5.8vw, 6rem);
+  font-weight: 900;
+  line-height: 0.96;
+  color: var(--white-pure);
+  margin-bottom: 1.6rem;
+  letter-spacing: -0.02em;
+}
+h1.hero-title .italic { font-style: italic; color: var(--silver); font-weight:400; }
+h1.hero-title .outline {
+  -webkit-text-stroke: 1px rgba(255,255,255,0.5);
+  color: transparent;
+}
+.hero-sub {
+  font-family: 'Jost', sans-serif;
+  font-size: 1rem; font-weight:300;
+  color: var(--grey-pale);
+  line-height: 1.85;
+  max-width: 440px;
+  margin-bottom: 2.5rem;
+  letter-spacing: .02em;
+}
+.hero-btns { display:flex; gap:1rem; flex-wrap:wrap; margin-bottom:3rem; }
+
+.hero-stats {
+  display: flex; gap:2.5rem; align-items:center;
+  border-top: 1px solid var(--b-dark);
+  padding-top: 2rem;
+}
+.hs-item {}
+.hs-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem; font-weight:700; color: var(--white-pure);
+  line-height:1;
+}
+.hs-lbl {
+  font-size: .65rem; letter-spacing:.18em; text-transform:uppercase;
+  color: var(--grey-mid); margin-top:.2rem;
+}
+.hs-div { width:1px; height:36px; background:var(--b-dark); flex-shrink:0; }
+
+/* Hero Visual — Screen */
+.hero-visual {
+  display: flex; align-items:center; justify-content:center;
+  position: relative;
+}
+.screen-frame {
+  width: 100%;
+  max-width: 520px;
+  background: var(--black-soft);
+  border: 1px solid var(--b-mid);
+  border-radius: 12px 12px 6px 6px;
+  padding: 12px 12px 8px;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.04),
+    0 40px 80px rgba(0,0,0,0.6),
+    inset 0 1px 0 rgba(255,255,255,0.08);
+  position: relative;
+}
+.screen-frame::before {
+  content:'';
+  position:absolute; top:0; left:0; right:0; height:1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  border-radius:12px 12px 0 0;
+}
+.screen-dots {
+  display:flex; gap:5px; margin-bottom:10px; align-items:center; padding:0 2px;
+}
+.screen-dot { width:7px; height:7px; border-radius:50%; }
+.sd-1{ background:rgba(255,255,255,0.12); }
+.sd-2{ background:rgba(255,255,255,0.08); }
+.sd-3{ background:rgba(255,255,255,0.05); }
+.screen-body {
+  border-radius:6px; overflow:hidden;
+  aspect-ratio:16/9;
+  background: linear-gradient(150deg, #0a0a0a, #141414, #0d0d0d);
+  position:relative;
+}
+.sb-noise {
+  position:absolute; inset:0; opacity:.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+.sb-ui { position:absolute; inset:0; padding:5% 6%; }
+.sb-topbar { display:flex; justify-content:space-between; align-items:center; margin-bottom:4%; }
+.sb-logo-s {
+  font-family:'Playfair Display',serif;
+  font-size:clamp(.45rem,.85vw,.8rem);
+  font-weight:700; color:rgba(255,255,255,.7);
+  letter-spacing:.1em;
+}
+.sb-status { display:flex; align-items:center; gap:4px; font-size:clamp(.3rem,.45vw,.42rem); color:rgba(255,255,255,.35); letter-spacing:.1em; }
+.sb-status-dot { width:5px; height:5px; border-radius:50%; background:#fff; animation:sbpulse 2s infinite; flex-shrink:0; }
+@keyframes sbpulse{0%,100%{opacity:1}50%{opacity:.3}}
+.sb-featured {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 4px;
+  padding: 3.5% 4%;
+  margin-bottom:3%;
+  position:relative;
+}
+.sb-feat-label { font-size:clamp(.3rem,.48vw,.44rem); color:rgba(255,255,255,.35); letter-spacing:.18em; text-transform:uppercase; margin-bottom:2%; }
+.sb-feat-title { font-family:'Playfair Display',serif; font-size:clamp(.55rem,1vw,.95rem); color:rgba(255,255,255,.85); font-weight:700; margin-bottom:3%; }
+.sb-play {
+  display:inline-flex; align-items:center; gap:3px;
+  border: 1px solid rgba(255,255,255,.25);
+  color:rgba(255,255,255,.7);
+  padding:2px 7px;
+  font-size:clamp(.28rem,.42vw,.38rem); letter-spacing:.12em; text-transform:uppercase;
+}
+.sb-q-badge {
+  position:absolute; top:7%; right:3%;
+  border: 1px solid rgba(255,255,255,.3);
+  color:rgba(255,255,255,.7);
+  font-size:clamp(.28rem,.46vw,.42rem); font-weight:700; letter-spacing:.1em;
+  padding:2px 5px;
+}
+.sb-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:clamp(2px,.4vw,5px); }
+.sb-thumb { border-radius:3px; aspect-ratio:16/9; overflow:hidden; }
+.t1{background:linear-gradient(135deg,#111,#222);}
+.t2{background:linear-gradient(135deg,#1a1a1a,#2a2a2a);}
+.t3{background:linear-gradient(135deg,#0d0d0d,#1d1d1d);}
+.t4{background:linear-gradient(135deg,#181818,#282828);}
+.t5{background:linear-gradient(135deg,#141414,#242424);}
+.t6{background:linear-gradient(135deg,#1c1c1c,#2c2c2c);}
+.t7{background:linear-gradient(135deg,#101010,#202020);}
+.t8{background:linear-gradient(135deg,#161616,#262626);}
+.sb-thumb::after{content:'';display:block;height:100%;background:linear-gradient(to top,rgba(255,255,255,.04),transparent);}
+
+/* Floating cards on dark bg */
+.vis-badge {
+  position:absolute;
+  background: rgba(20,20,20,0.95);
+  border: 1px solid var(--b-light);
+  border-radius: 6px;
+  padding: .6rem 1rem;
+  display: flex; align-items:center; gap:.65rem;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  animation: vbfloat 4s ease-in-out infinite;
+  white-space:nowrap;
+}
+@keyframes vbfloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+.vb1 { top:8%; left:-14%; animation-delay:0s; }
+.vb2 { bottom:16%; left:-16%; animation-delay:.8s; }
+.vb3 { top:6%; right:-13%; animation-delay:1.4s; }
+.vb4 { bottom:20%; right:-15%; animation-delay:.4s; }
+.vb-ico {
+  width:28px; height:28px; border-radius:4px;
+  border: 1px solid var(--b-light);
+  display:flex; align-items:center; justify-content:center;
+  font-size:.72rem; color:var(--white-warm); flex-shrink:0;
+}
+.vb-main { font-size:.76rem; font-weight:600; color:var(--white-warm); }
+.vb-sub { font-size:.62rem; color:var(--grey-mid); }
+
+/* Screen stand */
+.screen-stand { width:28%; margin:0 auto; height:8px; background:linear-gradient(180deg,var(--charcoal),var(--black-soft)); border-radius:0 0 3px 3px; }
+.screen-base { width:48%; margin:0 auto; height:5px; background:linear-gradient(90deg,var(--black-soft),var(--charcoal),var(--black-soft)); border-radius:3px; }
+
+/* ══════════════════════════════════
+   WHITE STATS STRIP
+══════════════════════════════════ */
+.stats-strip {
+  background: var(--white-pure);
+  padding: 56px 5%;
+  position:relative;
+}
+.stats-strip::before {
+  content:'';
+  position:absolute; top:0; left:5%; right:5%; height:1px;
+  background: linear-gradient(90deg, transparent, var(--black-rich), transparent);
+  opacity:.15;
+}
+.ss-inner {
+  max-width:1300px; margin:0 auto;
+  display:grid; grid-template-columns:repeat(4,1fr);
+  gap:2rem;
+  position:relative;
+}
+.ss-item { text-align:center; }
+.ss-num {
+  font-family:'Playfair Display',serif;
+  font-size:3.2rem; font-weight:900; color:var(--black-rich);
+  line-height:1; margin-bottom:.3rem;
+}
+.ss-lbl {
+  font-size:.68rem; font-weight:500; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--grey-mid);
+}
+
+/* ══════════════════════════════════
+   SECTIONS COMMON
+══════════════════════════════════ */
+section { padding:100px 5%; }
+.sec-inner { max-width:1300px; margin:0 auto; }
+
+.eyebrow {
+  display:inline-flex; align-items:center; gap:.7rem;
+  font-size:.66rem; font-weight:500; letter-spacing:.25em; text-transform:uppercase;
+  color:var(--grey-pale); margin-bottom:1rem;
+}
+.eyebrow::before { content:''; display:block; width:28px; height:1px; background:var(--grey-mid); }
+.eyebrow-dark {
+  display:inline-flex; align-items:center; gap:.7rem;
+  font-size:.66rem; font-weight:500; letter-spacing:.25em; text-transform:uppercase;
+  color:var(--grey-mid); margin-bottom:1rem;
+}
+.eyebrow-dark::before { content:''; display:block; width:28px; height:1px; background:var(--grey-pale); }
+
+h2.sh {
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2.2rem,3.8vw,3.4rem);
+  font-weight:700; color:var(--white-pure);
+  line-height:1.12; margin-bottom:.8rem;
+}
+h2.sh-dark {
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2.2rem,3.8vw,3.4rem);
+  font-weight:700; color:var(--black-rich);
+  line-height:1.12; margin-bottom:.8rem;
+}
+h2.sh-dark .it { font-style:italic; font-weight:400; color:var(--grey-deep); }
+h2.sh .it { font-style:italic; font-weight:400; color:var(--silver); }
+
+.sdesc {
+  font-size:.95rem; font-weight:300; color:var(--grey-pale);
+  line-height:1.85; max-width:520px; margin-bottom:3rem;
+  letter-spacing:.02em;
+}
+.sdesc-dark {
+  font-size:.95rem; font-weight:300; color:var(--grey-mid);
+  line-height:1.85; max-width:520px; margin-bottom:3rem;
+  letter-spacing:.02em;
+}
+
+/* ══════════════════════════════════
+   FEATURES — alternating
+══════════════════════════════════ */
+#features { background:var(--black-soft); }
+.feat-layout {
+  display:grid; grid-template-columns:1fr 1fr;
+  gap:5rem; align-items:center;
+  max-width:1300px; margin:0 auto;
+}
+.feat-list { display:flex; flex-direction:column; gap:.9rem; }
+.feat-card {
+  display:flex; gap:1.2rem; align-items:flex-start;
+  padding:1.4rem 1.6rem;
+  background:rgba(255,255,255,0.02);
+  border:1px solid var(--b-dark);
+  border-left:1px solid transparent;
+  transition:all .3s cubic-bezier(.4,0,.2,1);
+  position:relative;
+}
+.feat-card::before {
+  content:''; position:absolute;
+  left:0; top:0; width:2px; height:100%;
+  background: linear-gradient(180deg,var(--white-pure),rgba(255,255,255,.3));
+  transform:scaleY(0); transform-origin:bottom; transition:.3s;
+}
+.feat-card:hover { border-color:var(--b-light); border-left-color:var(--white-pure); background:rgba(255,255,255,0.04); }
+.feat-card:hover::before { transform:scaleY(1); }
+.feat-ico {
+  width:44px; height:44px; flex-shrink:0;
+  border:1px solid var(--b-mid);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1rem; color:var(--silver);
+}
+.feat-ttl { font-weight:600; font-size:.9rem; color:var(--white-warm); margin-bottom:.25rem; letter-spacing:.03em; }
+.feat-txt { font-size:.8rem; color:var(--grey-pale); line-height:1.65; font-weight:300; }
+
+.feat-showcase {
+  background:var(--black-mid);
+  border:1px solid var(--b-mid);
+  padding:3rem 2.5rem;
+  position:relative; overflow:hidden;
+}
+.feat-showcase::after {
+  content:'';
+  position:absolute; bottom:0; right:0;
+  width:300px; height:300px;
+  background: radial-gradient(circle, rgba(255,255,255,0.025), transparent 70%);
+}
+.fs-num-big {
+  font-family:'Playfair Display',serif;
+  font-size:7rem; font-weight:900;
+  color:var(--white-pure); line-height:.9;
+  margin-bottom:.3rem;
+  opacity:.9;
+}
+.fs-sup { font-size:2rem; vertical-align:super; color:var(--silver); }
+.fs-lbl { font-size:.72rem; letter-spacing:.2em; text-transform:uppercase; color:var(--grey-mid); margin-bottom:2.5rem; }
+.fs-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:.7rem; }
+.fs-tile {
+  background:rgba(255,255,255,0.03);
+  border:1px solid var(--b-dark);
+  padding:.9rem; text-align:center;
+  transition:.25s;
+}
+.fs-tile:hover { border-color:var(--b-light); background:rgba(255,255,255,.06); }
+.fs-tile i { color:var(--silver); font-size:.95rem; display:block; margin-bottom:.4rem; }
+.fs-tile span { font-size:.68rem; color:var(--grey-pale); letter-spacing:.1em; text-transform:uppercase; }
+
+/* ══════════════════════════════════
+   HOW IT WORKS — Light section
+══════════════════════════════════ */
+#how { background:var(--white-off); }
+.how-grid {
+  display:grid; grid-template-columns:repeat(4,1fr);
+  gap:1.5rem; position:relative;
+}
+.how-line {
+  position:absolute; top:44px; left:12%; right:12%; height:1px;
+  background:linear-gradient(90deg, transparent, rgba(0,0,0,.12), rgba(0,0,0,.12), transparent);
+  z-index:0;
+}
+.step-card {
+  background:var(--white-pure);
+  border:1px solid var(--b-dk-mid);
+  padding:2rem 1.5rem; text-align:center;
+  position:relative; z-index:1;
+  transition:all .3s cubic-bezier(.4,0,.2,1);
+  box-shadow:var(--sh-lsm);
+}
+.step-card:hover {
+  box-shadow: var(--sh-llg);
+  transform: translateY(-8px);
+  border-color: rgba(0,0,0,0.25);
+}
+.step-num {
+  width:72px; height:72px; border-radius:50%;
+  background:var(--black-rich);
+  display:flex; align-items:center; justify-content:center;
+  margin:0 auto 1.2rem;
+  font-size:1.2rem; color:var(--white-pure);
+  box-shadow:0 8px 24px rgba(0,0,0,0.2);
+  transition: transform .3s;
+}
+.step-card:hover .step-num { transform:scale(1.05); }
+.step-ttl { font-weight:700; font-size:.9rem; color:var(--black-rich); margin-bottom:.5rem; letter-spacing:.02em; }
+.step-txt { font-size:.8rem; color:var(--grey-mid); line-height:1.65; font-weight:300; }
+
+/* ══════════════════════════════════
+   MOVIE SLIDER
+══════════════════════════════════ */
+#movies { background:var(--black-rich); }
+.slider-outer { position:relative; padding:0 28px; }
+.slider-overflow { overflow:hidden; }
+.sl-track { display:flex; gap:12px; transition:transform .45s cubic-bezier(.25,.46,.45,.94); will-change:transform; }
+.movie-card {
+  flex:0 0 150px; height:225px;
+  border:1px solid var(--b-dark);
+  overflow:hidden; cursor:pointer;
+  position:relative;
+  transition:transform .3s, box-shadow .3s, border-color .3s;
+}
+.movie-card:hover { transform:scale(1.05) translateY(-5px); box-shadow:0 20px 50px rgba(0,0,0,.5); border-color:var(--b-light); }
+.mc-bg { width:100%; height:100%; display:flex; flex-direction:column; justify-content:flex-end; padding:.9rem; }
+.m1{background:linear-gradient(200deg,#050505,#111,#1c1c1c);}
+.m2{background:linear-gradient(200deg,#080808,#141414,#222);}
+.m3{background:linear-gradient(200deg,#060606,#0f0f0f,#1a1a1a);}
+.m4{background:linear-gradient(200deg,#0a0a0a,#181818,#252525);}
+.m5{background:linear-gradient(200deg,#040404,#0d0d0d,#181818);}
+.m6{background:linear-gradient(200deg,#090909,#131313,#1f1f1f);}
+.m7{background:linear-gradient(200deg,#050505,#111,#1c1c1c);}
+.m8{background:linear-gradient(200deg,#070707,#111,#1e1e1e);}
+.m9{background:linear-gradient(200deg,#060606,#121212,#1a1a1a);}
+.m10{background:linear-gradient(200deg,#0a0a0a,#161616,#222);}
+.m11{background:linear-gradient(200deg,#030303,#0c0c0c,#181818);}
+.m12{background:linear-gradient(200deg,#080808,#141414,#202020);}
+.mc-genre { font-size:.55rem; color:var(--grey-mid); text-transform:uppercase; letter-spacing:.15em; margin-bottom:.2rem; }
+.mc-title { font-family:'Playfair Display',serif; font-size:.82rem; font-weight:700; color:var(--white-warm); line-height:1.25; }
+.mc-badge {
+  position:absolute; top:8px; right:8px;
+  border:1px solid var(--b-light);
+  color:var(--silver); font-size:.48rem; font-weight:600;
+  letter-spacing:.12em; padding:2px 5px;
+}
+.sl-btn {
+  position:absolute; top:50%; transform:translateY(-50%);
+  width:44px; height:44px; border-radius:0;
+  background:var(--black-soft); border:1px solid var(--b-mid);
+  cursor:pointer; display:flex; align-items:center; justify-content:center;
+  color:var(--silver); font-size:.85rem;
+  box-shadow:var(--sh-md); transition:.25s; z-index:5;
+}
+.sl-btn:hover { background:var(--white-pure); color:var(--black-rich); border-color:var(--white-pure); }
+.sl-prev { left:-22px; }
+.sl-next { right:-22px; }
+
+/* ══════════════════════════════════
+   DEVICES — Light
+══════════════════════════════════ */
+#devices { background:var(--white-card); }
+.dev-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.2rem; }
+.dev-card {
+  background:var(--white-pure); border:1px solid var(--b-dk-mid);
+  padding:2rem 1rem; text-align:center;
+  transition:all .3s; cursor:default;
+  box-shadow:var(--sh-lsm);
+}
+.dev-card:hover {
+  border-color:var(--black-rich);
+  box-shadow:var(--sh-llg);
+  transform:translateY(-4px);
+}
+.dev-ico {
+  width:56px; height:56px; border-radius:0;
+  background:var(--black-rich);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.3rem; color:var(--white-warm);
+  margin:0 auto .9rem;
+  box-shadow:0 4px 16px rgba(0,0,0,0.15);
+  transition:transform .3s;
+}
+.dev-card:hover .dev-ico { transform:scale(1.08); }
+.dev-name { font-weight:600; font-size:.82rem; color:var(--black-rich); letter-spacing:.04em; }
+
+/* ══════════════════════════════════
+   APPS SLIDER — Dark
+══════════════════════════════════ */
+#apps { background:var(--black-soft); }
+.apps-rail { display:flex; gap:12px; transition:transform .45s cubic-bezier(.25,.46,.45,.94); will-change:transform; }
+.app-card {
+  flex:0 0 158px;
+  background:rgba(255,255,255,0.03); border:1px solid var(--b-dark);
+  padding:1.5rem 1rem; text-align:center; transition:all .3s;
+}
+.app-card:hover { border-color:var(--b-light); background:rgba(255,255,255,.06); transform:translateY(-4px); }
+.app-ico {
+  width:54px; height:54px; border-radius:0;
+  margin:0 auto .9rem;
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.3rem; color:var(--white-warm);
+  border:1px solid var(--b-mid);
+}
+.app-name { font-weight:600; font-size:.8rem; color:var(--white-warm); margin-bottom:.8rem; letter-spacing:.04em; }
+.app-btn {
+  display:inline-block; font-size:.65rem; font-weight:500;
+  padding:.32rem .9rem; border:1px solid var(--b-light);
+  color:var(--silver); letter-spacing:.12em; text-transform:uppercase;
+  transition:.2s;
+}
+.app-btn:hover { background:var(--white-pure); color:var(--black-rich); border-color:var(--white-pure); }
+
+/* ══════════════════════════════════
+   PRICING — Light BG
+══════════════════════════════════ */
+#pricing { background:var(--white-off); }
+.price-grid {
+  display:grid; grid-template-columns:repeat(4,1fr);
+  gap:1.5rem; margin-bottom:2rem;
+}
+.price-card {
+  background:var(--white-pure); border:1px solid var(--b-dk-mid);
+  padding:2.2rem 1.6rem;
+  transition:all .3s cubic-bezier(.4,0,.2,1);
+  position:relative; overflow:hidden;
+  box-shadow:var(--sh-lsm);
+}
+.price-card:hover { border-color:var(--black-rich); box-shadow:var(--sh-llg); transform:translateY(-6px); }
+.price-card.hot { border-color:var(--black-rich); background:var(--black-rich); color:var(--white-warm); }
+.hot-tag {
+  position:absolute; top:18px; right:-32px;
+  background:var(--black-rich); color:var(--white-warm);
+  font-size:.56rem; font-weight:600; letter-spacing:.15em; text-transform:uppercase;
+  padding:.28rem 3rem; transform:rotate(35deg);
+}
+.price-card.hot .hot-tag { background:var(--white-pure); color:var(--black-rich); }
+.price-dur {
+  font-family:'Playfair Display',serif;
+  font-size:2.6rem; font-weight:900; color:var(--black-rich); line-height:1;
+}
+.price-card.hot .price-dur { color:var(--white-pure); }
+.price-dur sub { font-size:.85rem; font-weight:400; color:var(--grey-mid); }
+.price-card.hot .price-dur sub { color:var(--grey-pale); }
+.price-label {
+  display:inline-block;
+  background:var(--black-rich); color:var(--white-warm);
+  font-size:.6rem; font-weight:600; letter-spacing:.12em; text-transform:uppercase;
+  padding:.2rem .7rem; margin:.6rem 0 1rem;
+}
+.price-card.hot .price-label { background:var(--white-pure); color:var(--black-rich); }
+.p-div { height:1px; background:var(--b-dk-light); margin:1rem 0; }
+.price-card.hot .p-div { background:var(--b-light); }
+.p-list { list-style:none; margin-bottom:1.8rem; }
+.p-list li { display:flex; align-items:center; gap:.6rem; font-size:.82rem; color:var(--grey-deep); padding:.3rem 0; font-weight:300; }
+.p-list li i { color:var(--black-rich); font-size:.7rem; flex-shrink:0; }
+.price-card.hot .p-list li { color:var(--grey-pale); }
+.price-card.hot .p-list li i { color:var(--white-warm); }
+
+/* ══════════════════════════════════
+   RESELLER CARD — B&W Luxury
+══════════════════════════════════ */
+.reseller-wrap { margin-top:.5rem; }
+.reseller-card {
+  background:var(--black-rich);
+  border:1px solid var(--b-mid);
+  overflow:hidden; position:relative;
+  box-shadow:0 40px 100px rgba(0,0,0,0.5);
+}
+.reseller-card::before {
+  content:'';
+  position:absolute; top:0; left:0; right:0; height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,0.25),transparent);
+}
+.reseller-card::after {
+  content:'';
+  position:absolute; inset:0; pointer-events:none;
+  background:
+    radial-gradient(ellipse 60% 60% at 20% 20%, rgba(255,255,255,.02), transparent),
+    radial-gradient(ellipse 50% 50% at 80% 80%, rgba(255,255,255,.015), transparent);
+}
+.rs-inner {
+  display:grid; grid-template-columns:1fr 1fr;
+  position:relative; z-index:1;
+}
+.rs-left {
+  padding:3.5rem 3rem;
+  border-right:1px solid var(--b-dark);
+  position:relative;
+}
+.rs-tag {
+  position:absolute; top:2rem; right:2rem;
+  border:1px solid var(--b-light);
+  color:var(--silver); font-size:.58rem; font-weight:600;
+  letter-spacing:.2em; text-transform:uppercase;
+  padding:.3rem .8rem;
+}
+.rs-kicker {
+  display:inline-flex; align-items:center; gap:.6rem;
+  margin-bottom:1.4rem;
+}
+.rs-kicker-line { width:30px; height:1px; background:var(--silver); }
+.rs-kicker-text { font-size:.65rem; letter-spacing:.22em; text-transform:uppercase; color:var(--silver); }
+.rs-title {
+  font-family:'Playfair Display',serif;
+  font-size:clamp(2rem,3.2vw,3rem);
+  font-weight:700; line-height:1.05;
+  color:var(--white-pure); margin-bottom:1.8rem;
+}
+.rs-title .it { font-style:italic; color:var(--silver); }
+.rs-price-row { display:flex; align-items:baseline; gap:.6rem; margin-bottom:.6rem; }
+.rs-price {
+  font-family:'Playfair Display',serif;
+  font-size:4.5rem; font-weight:900;
+  color:var(--white-pure); line-height:1;
+}
+.rs-price-note { font-size:.8rem; color:var(--grey-pale); font-weight:300; line-height:1.4; }
+.rs-credits-badge {
+  display:inline-flex; align-items:center; gap:.6rem;
+  border:1px solid var(--b-light);
+  color:var(--silver); font-size:.72rem; font-weight:500;
+  padding:.4rem 1rem; letter-spacing:.1em;
+  margin-bottom:1.8rem;
+}
+.rs-desc {
+  font-size:.88rem; font-weight:300; color:var(--grey-pale);
+  line-height:1.8; max-width:400px; margin-bottom:2.2rem;
+}
+.rs-btns { display:flex; gap:.8rem; flex-wrap:wrap; }
+.rs-note {
+  margin-top:1.8rem; padding-top:1.2rem;
+  border-top:1px solid var(--b-dark);
+  font-size:.72rem; color:var(--grey-mid); font-style:italic;
+  font-family:'Libre Baskerville',serif;
+}
+.rs-right {
+  padding:3rem 2.5rem;
+  background:rgba(255,255,255,0.015);
+  display:flex; flex-direction:column; gap:.9rem;
+}
+.rs-feat-title { font-size:.63rem; letter-spacing:.2em; text-transform:uppercase; color:var(--grey-mid); margin-bottom:.4rem; }
+.rs-feat {
+  display:flex; align-items:flex-start; gap:1rem;
+  padding:1.1rem 1.2rem;
+  border:1px solid var(--b-dark);
+  background:rgba(255,255,255,0.02);
+  transition:.25s;
+}
+.rs-feat:hover { border-color:var(--b-light); background:rgba(255,255,255,.04); }
+.rs-feat-ico {
+  width:38px; height:38px; flex-shrink:0;
+  border:1px solid var(--b-mid);
+  display:flex; align-items:center; justify-content:center;
+  font-size:.9rem; color:var(--silver);
+}
+.rs-feat-ttl { font-size:.85rem; font-weight:600; color:var(--white-warm); margin-bottom:.2rem; letter-spacing:.02em; }
+.rs-feat-txt { font-size:.75rem; color:var(--grey-pale); line-height:1.55; font-weight:300; }
+
+/* ══════════════════════════════════
+   CHANNELS — Dark
+══════════════════════════════════ */
+#channels { background:var(--black-mid); }
+.ch-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1rem; }
+.ch-card {
+  background:rgba(255,255,255,0.02); border:1px solid var(--b-dark);
+  padding:1.1rem 1.2rem; display:flex; align-items:center; gap:.9rem;
+  transition:all .3s;
+}
+.ch-card:hover { border-color:var(--b-light); background:rgba(255,255,255,.04); }
+.ch-em {
+  width:42px; height:42px;
+  border:1px solid var(--b-mid);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.2rem; flex-shrink:0;
+}
+.ch-name { font-weight:600; font-size:.84rem; color:var(--white-warm); letter-spacing:.03em; }
+.ch-cnt { font-size:.68rem; color:var(--grey-mid); letter-spacing:.08em; margin-top:.1rem; }
+
+/* ══════════════════════════════════
+   TESTIMONIALS — Light
+══════════════════════════════════ */
+#testimonials { background:var(--white-pure); }
+.rev-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:1.5rem; }
+.rev-card {
+  background:var(--white-off); border:1px solid var(--b-dk-mid);
+  padding:2rem; transition:all .3s;
+  box-shadow:var(--sh-lsm);
+}
+.rev-card:hover { border-color:var(--black-rich); box-shadow:var(--sh-llg); transform:translateY(-3px); }
+.rev-stars {
+  font-size:.75rem; letter-spacing:3px; color:var(--black-rich);
+  margin-bottom:1rem; display:block;
+}
+.rev-text {
+  font-family:'Libre Baskerville',serif;
+  font-size:.95rem; color:var(--grey-deep); font-style:italic;
+  line-height:1.75; margin-bottom:1.4rem;
+}
+.rev-meta { display:flex; align-items:center; gap:.8rem; }
+.rev-av {
+  width:38px; height:38px; flex-shrink:0;
+  background:var(--black-rich);
+  display:flex; align-items:center; justify-content:center;
+  font-weight:700; font-size:.85rem; color:var(--white-warm);
+  font-family:'Playfair Display',serif;
+}
+.rev-name { font-weight:700; font-size:.82rem; color:var(--black-rich); letter-spacing:.03em; }
+.rev-loc { font-size:.68rem; color:var(--grey-light); margin-top:.1rem; }
+
+/* ══════════════════════════════════
+   TICKER
+══════════════════════════════════ */
+#ticker {
+  padding:28px 0;
+  background:var(--black-rich);
+  border-top:1px solid var(--b-dark);
+  border-bottom:1px solid var(--b-dark);
+  overflow:hidden;
+}
+.tick-inner {
+  display:flex; gap:40px;
+  animation:tick 24s linear infinite;
+  width:max-content;
+}
+.tick-inner:hover { animation-play-state:paused; }
+@keyframes tick { to { transform:translateX(-50%); } }
+.tick-chip {
+  display:flex; align-items:center; gap:.55rem;
+  border:1px solid var(--b-dark);
+  padding:.4rem 1rem;
+  font-size:.68rem; font-weight:500; color:var(--grey-pale);
+  white-space:nowrap; flex-shrink:0; letter-spacing:.1em;
+}
+.tick-chip i { color:var(--grey-mid); font-size:.65rem; }
+
+/* ══════════════════════════════════
+   FAQ
+══════════════════════════════════ */
+#faq { background:var(--black-soft); }
+.faq-layout { display:grid; grid-template-columns:5fr 4fr; gap:4rem; align-items:start; }
+.faq-stack { display:flex; flex-direction:column; gap:.7rem; }
+.faq-item {
+  background:rgba(255,255,255,0.02); border:1px solid var(--b-dark); overflow:hidden;
+}
+.faq-q {
+  padding:1.1rem 1.4rem;
+  display:flex; justify-content:space-between; align-items:center;
+  cursor:pointer; font-weight:500; font-size:.88rem; color:var(--white-warm);
+  transition:.2s; letter-spacing:.02em;
+}
+.faq-q:hover { background:rgba(255,255,255,.03); }
+.faq-q i { color:var(--silver); font-size:.75rem; transition:transform .3s; flex-shrink:0; }
+.faq-ans { max-height:0; overflow:hidden; transition:max-height .4s ease; }
+.faq-ans p { padding:.1rem 1.4rem 1.1rem; font-size:.83rem; color:var(--grey-pale); line-height:1.75; font-weight:300; }
+.faq-item.open .faq-q { background:rgba(255,255,255,.04); color:var(--white-pure); }
+.faq-item.open .faq-q i { transform:rotate(180deg); }
+.faq-item.open .faq-ans { max-height:220px; }
+.faq-aside {
+  background:var(--white-pure);
+  padding:2.8rem 2.2rem; text-align:center;
+  position:sticky; top:90px;
+  box-shadow:var(--sh-xl);
+}
+.fa-ico {
+  width:64px; height:64px;
+  background:var(--black-rich);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.5rem; color:var(--white-warm);
+  margin:0 auto 1.2rem;
+}
+.fa-title { font-family:'Playfair Display',serif; font-size:1.5rem; font-weight:700; color:var(--black-rich); margin-bottom:.5rem; }
+.fa-sub { font-size:.85rem; color:var(--grey-mid); margin-bottom:1.6rem; line-height:1.7; font-weight:300; }
+.fa-resp { font-size:.7rem; color:var(--grey-light); margin-top:.8rem; }
+
+/* ══════════════════════════════════
+   CONTACT — Light
+══════════════════════════════════ */
+#contact { background:var(--white-off); }
+.contact-layout { display:grid; grid-template-columns:1fr 1fr; gap:4rem; align-items:center; }
+.contact-items { display:flex; flex-direction:column; gap:1rem; }
+.c-item {
+  display:flex; align-items:center; gap:1rem;
+  padding:1.2rem 1.4rem;
+  background:var(--white-pure); border:1px solid var(--b-dk-mid);
+  transition:.3s; box-shadow:var(--sh-lsm);
+}
+.c-item:hover { border-color:var(--black-rich); box-shadow:var(--sh-lmd); }
+.c-ico {
+  width:44px; height:44px;
+  background:var(--black-rich);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1rem; color:var(--white-warm); flex-shrink:0;
+}
+.c-lbl { font-size:.65rem; color:var(--grey-light); text-transform:uppercase; letter-spacing:.12em; }
+.c-val { font-size:.9rem; font-weight:600; color:var(--black-rich); }
+.contact-box {
+  background:var(--black-rich);
+  padding:3rem 2.5rem; text-align:center;
+  position:relative; overflow:hidden;
+  box-shadow:var(--sh-xl);
+}
+.contact-box::before {
+  content:''; position:absolute; top:0; left:0; right:0; height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);
+}
+.wa-circle {
+  width:68px; height:68px;
+  border:1px solid var(--b-light);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.7rem; color:var(--white-warm);
+  margin:0 auto 1.2rem;
+}
+.cb-title { font-family:'Playfair Display',serif; font-size:1.7rem; font-weight:700; color:var(--white-pure); margin-bottom:.5rem; }
+.cb-sub { font-size:.87rem; color:var(--grey-pale); margin-bottom:1.8rem; line-height:1.7; font-weight:300; }
+.cb-note { font-size:.7rem; color:var(--grey-mid); margin-top:1rem; }
+
+/* ══════════════════════════════════
+   FOOTER
+══════════════════════════════════ */
+footer {
+  background:var(--black);
+  padding:72px 5% 36px;
+  position:relative;
+}
+footer::before {
+  content:''; position:absolute; top:0; left:5%; right:5%; height:1px;
+  background:linear-gradient(90deg,transparent,rgba(255,255,255,.1),transparent);
+}
+.foot-inner { max-width:1300px; margin:0 auto; }
+.foot-grid { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:3rem; margin-bottom:3rem; }
+.f-logo-wrap { display:flex; align-items:center; gap:.7rem; margin-bottom:.9rem; }
+.f-logo-mark {
+  width:32px; height:32px; border:1px solid var(--b-mid);
+  display:flex; align-items:center; justify-content:center;
+  font-size:.8rem; color:var(--white-warm);
+}
+.f-logo-name { font-family:'Playfair Display',serif; font-size:1.25rem; font-weight:700; color:var(--white-warm); }
+.f-logo-name em { font-style:italic; color:var(--silver); }
+.f-desc { font-size:.8rem; color:rgba(255,255,255,.3); line-height:1.75; margin-bottom:1.3rem; font-weight:300; }
+.f-socials { display:flex; gap:.6rem; }
+.f-soc {
+  width:34px; height:34px;
+  border:1px solid var(--b-dark);
+  display:flex; align-items:center; justify-content:center;
+  color:rgba(255,255,255,.35); font-size:.78rem; transition:.2s;
+}
+.f-soc:hover { border-color:var(--b-bright); color:var(--white-warm); }
+.foot-col h5 {
+  font-size:.65rem; font-weight:600; letter-spacing:.2em; text-transform:uppercase;
+  color:var(--grey-light); margin-bottom:1rem;
+}
+.foot-col ul { list-style:none; }
+.foot-col ul li { margin-bottom:.5rem; }
+.foot-col ul li a { font-size:.8rem; color:rgba(255,255,255,.3); transition:.2s; font-weight:300; }
+.foot-col ul li a:hover { color:var(--white-warm); }
+.foot-bottom {
+  border-top:1px solid rgba(255,255,255,.06);
+  padding-top:1.5rem;
+  display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1rem;
+}
+.f-copy { font-size:.73rem; color:rgba(255,255,255,.2); }
+.f-policies { display:flex; gap:1.5rem; }
+.f-policies a { font-size:.7rem; color:rgba(255,255,255,.2); transition:.2s; }
+.f-policies a:hover { color:var(--silver); }
+
+/* ══════════════════════════════════
+   WA FLOAT
+══════════════════════════════════ */
+.wa-float {
+  position:fixed; bottom:24px; right:24px; z-index:998;
+  width:56px; height:56px;
+  background:var(--white-pure);
+  display:flex; align-items:center; justify-content:center;
+  font-size:1.3rem; color:var(--black-rich);
+  box-shadow:0 4px 24px rgba(255,255,255,0.15);
+  transition:transform .2s, box-shadow .2s;
+  animation:wafloat 3s ease infinite;
+}
+.wa-float:hover { transform:scale(1.08); box-shadow:0 8px 40px rgba(255,255,255,0.25); }
+@keyframes wafloat { 0%,100%{box-shadow:0 4px 24px rgba(255,255,255,.15)} 50%{box-shadow:0 4px 40px rgba(255,255,255,.28)} }
+
+/* ══════════════════════════════════
+   REVEAL ANIMATION
+══════════════════════════════════ */
+.reveal { opacity:0; transform:translateY(28px); transition:opacity .7s ease, transform .7s ease; }
+.reveal.vis { opacity:1; transform:none; }
+
+/* ══════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════ */
+@media(max-width:1200px){
+  .rs-inner { grid-template-columns:1fr; }
+  .rs-left { border-right:none; border-bottom:1px solid var(--b-dark); }
+  .price-grid { grid-template-columns:repeat(2,1fr); }
+}
+@media(max-width:1100px){
+  .hero-inner { grid-template-columns:1fr; gap:3rem; }
+  .hero-visual { display:none; }
+  .feat-layout { grid-template-columns:1fr; }
+  .feat-showcase { display:none; }
+  .foot-grid { grid-template-columns:1fr 1fr; gap:2rem; }
+  .ss-inner { grid-template-columns:repeat(2,1fr); }
+  .how-grid { grid-template-columns:repeat(2,1fr); }
+  .how-line { display:none; }
+  .rev-grid { grid-template-columns:repeat(2,1fr); }
+}
+@media(max-width:768px){
+  #hdr { padding:0 4%; }
+  nav { display:none; }
+  .ham { display:flex; }
+  nav.open {
+    display:flex; flex-direction:column;
+    position:fixed; top:72px; left:0; width:100%;
+    background:var(--black-soft);
+    padding:1.2rem 5%;
+    border-bottom:1px solid var(--b-dark);
+    box-shadow:0 8px 32px rgba(0,0,0,.5);
+    gap:0; z-index:999;
+  }
+  nav.open a {
+    font-size:.85rem; padding:.75rem 0;
+    border-bottom:1px solid var(--b-dark); color:var(--white-warm);
+  }
+  nav.open a:last-child { border-bottom:none; }
+  .hdr-cta { display:none; }
+  section { padding:64px 4%; }
+  #hero { padding:88px 4% 56px; }
+  h1.hero-title { font-size:clamp(2.6rem,9vw,3.6rem); }
+  .hero-sub { font-size:.92rem; }
+  .hero-btns { flex-direction:column; gap:.8rem; }
+  .hero-btns .btn { width:100%; justify-content:center; }
+  .hero-stats { flex-wrap:wrap; gap:1.2rem; }
+  .hs-div { display:none; }
+  .hs-item {
+    flex:1; min-width:calc(50% - .6rem);
+    background:rgba(255,255,255,.03); border:1px solid var(--b-dark);
+    padding:.8rem .6rem; text-align:center;
+  }
+  .ss-inner { grid-template-columns:repeat(2,1fr); gap:1.2rem; }
+  .ss-num { font-size:2.2rem; }
+  .feat-list { gap:.7rem; }
+  .how-grid { grid-template-columns:1fr 1fr; gap:1rem; }
+  .step-card { padding:1.4rem 1rem; }
+  .step-num { width:56px; height:56px; }
+  .sl-btn { display:none; }
+  .slider-outer { padding:0; }
+  .slider-overflow {
+    overflow-x:auto; -webkit-overflow-scrolling:touch;
+    scroll-snap-type:x mandatory; scrollbar-width:none;
+  }
+  .slider-overflow::-webkit-scrollbar { display:none; }
+  .sl-track { transform:none !important; padding-bottom:8px; }
+  .movie-card { scroll-snap-align:start; flex:0 0 138px; height:208px; }
+  .apps-rail { transform:none !important; padding-bottom:8px; }
+  .app-card { scroll-snap-align:start; flex:0 0 145px; }
+  .dev-grid { grid-template-columns:repeat(4,1fr); gap:.7rem; }
+  .dev-card { padding:1.2rem .5rem; }
+  .dev-ico { width:42px; height:42px; font-size:1.05rem; }
+  .dev-name { font-size:.7rem; }
+  .price-grid { grid-template-columns:1fr; gap:1rem; }
+  .price-card { padding:1.7rem 1.3rem; }
+  .ch-grid { grid-template-columns:1fr 1fr; gap:.8rem; }
+  .rev-grid { grid-template-columns:1fr; }
+  .faq-layout { grid-template-columns:1fr; gap:2rem; }
+  .faq-aside { position:static; }
+  .contact-layout { grid-template-columns:1fr; gap:2rem; }
+  .contact-box { padding:2rem 1.5rem; }
+  .rs-left { padding:2rem 1.5rem; }
+  .rs-title { font-size:clamp(1.8rem,6vw,2.4rem); }
+  .rs-price { font-size:3.5rem; }
+  .rs-btns { flex-direction:column; }
+  .rs-btns .btn { width:100%; justify-content:center; }
+  .rs-right { padding:1.5rem; }
+  .rs-tag { top:.8rem; right:.8rem; font-size:.52rem; }
+  .foot-grid { grid-template-columns:1fr; gap:2rem; }
+  .foot-bottom { flex-direction:column; text-align:center; }
+  .f-policies { justify-content:center; flex-wrap:wrap; }
+  .wa-float { width:50px; height:50px; bottom:18px; right:18px; }
+}
+@media(max-width:480px){
+  #hdr { height:62px; }
+  nav.open { top:62px; }
+  section { padding:52px 4%; }
+  h2.sh, h2.sh-dark { font-size:1.75rem; }
+  .ss-num { font-size:1.8rem; }
+  .how-grid { grid-template-columns:1fr; }
+  .dev-grid { gap:.4rem; }
+  .dev-ico { width:36px; height:36px; font-size:.9rem; }
+  .dev-name { font-size:.62rem; }
+  .ch-grid { grid-template-columns:1fr; }
+  .f-policies { gap:.8rem; }
+  .contact-box { padding:1.5rem 1rem; }
+  .rs-right { padding:1rem; }
+  .rs-feat { padding:.8rem .9rem; }
+}
+</style>
+</head>
+<body>
+
+<!-- Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Grain -->
+<div class="grain"></div>
+
+<!-- ═══════════════════════════════
+     HEADER
+═══════════════════════════════ -->
+<header id="hdr">
+  <div class="logo-wrap">
+    <div class="logo-mark"><i class="fas fa-signal"></i></div>
+    <span class="logo-text">BEST <em>IPTV</em></span>
+  </div>
+  <nav id="nav">
+    <a href="#features">Features</a>
+    <a href="#pricing">Plans</a>
+    <a href="#channels">Channels</a>
+    <a href="#apps">Apps</a>
+    <a href="#how">Setup</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hdr-cta">
+    <a href="https://wa.me/212691336847" class="btn btn-white" target="_blank"><i class="fab fa-whatsapp"></i> Free Trial</a>
+  </div>
+  <button class="ham" id="ham" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+
+
+<!-- ═══════════════════════════════
+     HERO
+═══════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="hbg-radial-1"></div>
+    <div class="hbg-radial-2"></div>
+    <div class="hbg-grid"></div>
+    <div class="hbg-vline"></div>
+    <div class="hbg-vline"></div>
+    <div class="hbg-vline"></div>
+    <div class="hbg-vline"></div>
+  </div>
+
+  <div class="hero-inner">
+    <!-- Left -->
+    <div class="reveal">
+      <div class="h-kicker">
+        <div class="h-kicker-line"></div>
+        <span class="h-kicker-text">The Pinnacle of Streaming</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="outline">Beyond</span><br>
+        <span class="italic">Ordinary</span><br>
+        Streaming.
+      </h1>
+      <p class="hero-sub">
+        BEST IPTV redefines what premium means. 20,000+ live channels, 60,000+ movies and series delivered in flawless 8K / 4K / FHD — engineered for those who accept nothing less than perfection.
+      </p>
+      <div class="hero-btns">
+        <a href="https://wa.me/212691336847" class="btn btn-white" target="_blank"><i class="fab fa-whatsapp"></i> Start Free Trial</a>
+        <a href="#pricing" class="btn btn-outline-w"><i class="fas fa-layer-group"></i> View Plans</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hs-item"><div class="hs-num">20K+</div><div class="hs-lbl">Live Channels</div></div>
+        <div class="hs-div"></div>
+        <div class="hs-item"><div class="hs-num">60K+</div><div class="hs-lbl">Movies & Shows</div></div>
+        <div class="hs-div"></div>
+        <div class="hs-item"><div class="hs-num">8K</div><div class="hs-lbl">Ultra HD</div></div>
+        <div class="hs-div"></div>
+        <div class="hs-item"><div class="hs-num">99.9%</div><div class="hs-lbl">Uptime</div></div>
+      </div>
+    </div>
+
+    <!-- Right: Screen -->
+    <div class="hero-visual reveal">
+      <div class="vb1 vis-badge">
+        <div class="vb-ico"><i class="fas fa-crown"></i></div>
+        <div><div class="vb-main">True 8K</div><div class="vb-sub">Ultra Resolution</div></div>
+      </div>
+      <div class="vb2 vis-badge">
+        <div class="vb-ico"><i class="fas fa-bolt"></i></div>
+        <div><div class="vb-main">Zero Buffering</div><div class="vb-sub">99.9% Uptime</div></div>
+      </div>
+      <div class="vb3 vis-badge">
+        <div class="vb-ico"><i class="fas fa-satellite-dish"></i></div>
+        <div><div class="vb-main">20,000+ Channels</div><div class="vb-sub">Worldwide</div></div>
+      </div>
+      <div class="vb4 vis-badge">
+        <div class="vb-ico"><i class="fas fa-headset"></i></div>
+        <div><div class="vb-main">24/7 Support</div><div class="vb-sub">WhatsApp</div></div>
+      </div>
+      <div style="width:100%;max-width:520px;">
+        <div class="screen-frame">
+          <div class="screen-dots">
+            <div class="screen-dot sd-1"></div>
+            <div class="screen-dot sd-2"></div>
+            <div class="screen-dot sd-3"></div>
+          </div>
+          <div class="screen-body">
+            <div class="sb-noise"></div>
+            <div class="sb-ui">
+              <div class="sb-topbar">
+                <div class="sb-logo-s">BEST IPTV</div>
+                <div class="sb-status"><div class="sb-status-dot"></div>&nbsp;Live</div>
+              </div>
+              <div class="sb-featured">
+                <div class="sb-feat-label">Now Streaming — Live</div>
+                <div class="sb-feat-title">Premier League · Matchday 32</div>
+                <div class="sb-play"><i class="fas fa-play" style="font-size:.5em"></i>&nbsp;Watch Now</div>
+                <div class="sb-q-badge">8K</div>
+              </div>
+              <div style="font-size:clamp(.3rem,.44vw,.42rem);color:rgba(255,255,255,.25);letter-spacing:.2em;text-transform:uppercase;margin-bottom:clamp(2px,.4vw,5px);">Recommended</div>
+              <div class="sb-grid">
+                <div class="sb-thumb t1"></div><div class="sb-thumb t2"></div>
+                <div class="sb-thumb t3"></div><div class="sb-thumb t4"></div>
+                <div class="sb-thumb t5"></div><div class="sb-thumb t6"></div>
+                <div class="sb-thumb t7"></div><div class="sb-thumb t8"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="screen-stand"></div>
+        <div class="screen-base"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     WHITE STATS STRIP
+═══════════════════════════════ -->
+<div class="stats-strip">
+  <div class="ss-inner">
+    <div class="ss-item"><div class="ss-num">20,000+</div><div class="ss-lbl">Live TV Channels</div></div>
+    <div class="ss-item"><div class="ss-num">60,000+</div><div class="ss-lbl">Movies & Series</div></div>
+    <div class="ss-item"><div class="ss-num">8K / 4K</div><div class="ss-lbl">Ultra HD Quality</div></div>
+    <div class="ss-item"><div class="ss-num">99.9%</div><div class="ss-lbl">Server Uptime</div></div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════
+     FEATURES
+═══════════════════════════════ -->
+<section id="features">
+  <div class="feat-layout">
+    <div class="reveal">
+      <div class="eyebrow">Why BEST IPTV</div>
+      <h2 class="sh">Precision <span class="it">Engineered</span><br>for Perfection</h2>
+      <p class="sdesc">Built on enterprise-grade infrastructure — the sharpest picture, fastest servers, and the most complete channel library ever assembled in one service.</p>
+      <div class="feat-list">
+        <div class="feat-card"><div class="feat-ico"><i class="fas fa-crown"></i></div><div><div class="feat-ttl">True 8K Ultra Resolution</div><p class="feat-txt">Genuine 8K streaming — 33 million pixels of breathtaking, cinematic clarity delivered to your screen.</p></div></div>
+        <div class="feat-card"><div class="feat-ico"><i class="fas fa-satellite-dish"></i></div><div><div class="feat-ttl">20,000+ Live TV Channels</div><p class="feat-txt">The world's largest IPTV library — USA, UK, Canada, Sports, Arabic, European and beyond.</p></div></div>
+        <div class="feat-card"><div class="feat-ico"><i class="fas fa-bolt"></i></div><div><div class="feat-ttl">Zero Buffering Servers</div><p class="feat-txt">Enterprise CDN with 99.9% uptime — instant channel switching, absolute zero lag.</p></div></div>
+        <div class="feat-card"><div class="feat-ico"><i class="fas fa-film"></i></div><div><div class="feat-ttl">60,000+ Movies & Series</div><p class="feat-txt">Vast on-demand library updated daily — every genre, every era, in 8K / 4K where available.</p></div></div>
+        <div class="feat-card"><div class="feat-ico"><i class="fas fa-desktop"></i></div><div><div class="feat-ttl">Multi-Device Support</div><p class="feat-txt">Stream on Smart TV, Firestick, phone, tablet, PC simultaneously — up to 5 screens at once.</p></div></div>
+        <div class="feat-card"><div class="feat-ico"><i class="fas fa-headset"></i></div><div><div class="feat-ttl">24/7 WhatsApp Support</div><p class="feat-txt">VIP concierge support every hour of every day — average response time under 5 minutes.</p></div></div>
+      </div>
+    </div>
+    <div class="reveal">
+      <div class="feat-showcase">
+        <div class="fs-kicker" style="font-size:.65rem;letter-spacing:.22em;text-transform:uppercase;color:var(--grey-mid);margin-bottom:.6rem;">On Demand VOD Library</div>
+        <div class="fs-num-big"><span class="fs-sup">+</span>60K</div>
+        <div class="fs-lbl">Titles available on demand</div>
+        <div class="fs-grid">
+          <div class="fs-tile"><i class="fas fa-film"></i><span>Action</span></div>
+          <div class="fs-tile"><i class="fas fa-rocket"></i><span>Sci-Fi</span></div>
+          <div class="fs-tile"><i class="fas fa-heart"></i><span>Romance</span></div>
+          <div class="fs-tile"><i class="fas fa-futbol"></i><span>Sports</span></div>
+          <div class="fs-tile"><i class="fas fa-child"></i><span>Kids</span></div>
+          <div class="fs-tile"><i class="fas fa-globe"></i><span>World</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     HOW IT WORKS
+═══════════════════════════════ -->
+<section id="how">
+  <div class="sec-inner">
+    <div style="text-align:center;margin-bottom:3rem;" class="reveal">
+      <div class="eyebrow-dark" style="justify-content:center;">Simple Setup</div>
+      <h2 class="sh-dark" style="margin:0 auto .8rem;">Up & Running in<br><span class="it">4 Simple Steps</span></h2>
+      <p class="sdesc-dark" style="margin:0 auto;">From purchase to streaming in under 5 minutes. No technical skills required.</p>
+    </div>
+    <div class="how-grid reveal">
+      <div class="how-line"></div>
+      <div class="step-card"><div class="step-num"><i class="fas fa-list-alt"></i></div><div class="step-ttl">Choose Your Plan</div><p class="step-txt">Browse our premium subscriptions and select the one that fits your viewing needs.</p></div>
+      <div class="step-card"><div class="step-num"><i class="fas fa-key"></i></div><div class="step-ttl">Receive Credentials</div><p class="step-txt">Get your M3U URL or Xtream codes delivered instantly via WhatsApp after payment.</p></div>
+      <div class="step-card"><div class="step-num"><i class="fas fa-mobile-alt"></i></div><div class="step-ttl">Install IPTV App</div><p class="step-txt">Download any supported IPTV player on your device and enter your login details.</p></div>
+      <div class="step-card"><div class="step-num"><i class="fas fa-play"></i></div><div class="step-ttl">Start Streaming</div><p class="step-txt">Access 20,000+ channels and 60,000+ VOD titles in stunning 8K. Enjoy the best.</p></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     MOVIE SLIDER
+═══════════════════════════════ -->
+<section id="movies">
+  <div class="sec-inner">
+    <div class="reveal">
+      <div class="eyebrow">VOD Library</div>
+      <h2 class="sh">Latest <span class="it">Movies & Series</span></h2>
+      <p class="sdesc">60,000+ on-demand titles — updated daily, available in 8K where broadcast permits.</p>
+    </div>
+    <div class="slider-outer reveal">
+      <button class="sl-btn sl-prev" id="slPrev"><i class="fas fa-chevron-left"></i></button>
+      <div class="slider-overflow"><div class="sl-track" id="slTrack">
+        <div class="movie-card m1"><div class="mc-bg"><div class="mc-badge">8K</div><div class="mc-genre">Action</div><div class="mc-title">The Last Empire</div></div></div>
+        <div class="movie-card m2"><div class="mc-bg"><div class="mc-badge">4K</div><div class="mc-genre">Crime</div><div class="mc-title">Shadow Protocol</div></div></div>
+        <div class="movie-card m3"><div class="mc-bg"><div class="mc-badge">8K</div><div class="mc-genre">Drama</div><div class="mc-title">Crown of Thorns</div></div></div>
+        <div class="movie-card m4"><div class="mc-bg"><div class="mc-badge">4K</div><div class="mc-genre">Documentary</div><div class="mc-title">Monochrome</div></div></div>
+        <div class="movie-card m5"><div class="mc-bg"><div class="mc-badge">8K</div><div class="mc-genre">Thriller</div><div class="mc-title">Dark Kingdom</div></div></div>
+        <div class="movie-card m6"><div class="mc-bg"><div class="mc-badge">4K</div><div class="mc-genre">Sci-Fi</div><div class="mc-title">Horizon Zero</div></div></div>
+        <div class="movie-card m7"><div class="mc-bg"><div class="mc-badge">8K</div><div class="mc-genre">Adventure</div><div class="mc-title">Silver Voyage</div></div></div>
+        <div class="movie-card m8"><div class="mc-bg"><div class="mc-badge">4K</div><div class="mc-genre">Fantasy</div><div class="mc-title">Celestial War</div></div></div>
+        <div class="movie-card m9"><div class="mc-bg"><div class="mc-badge">8K</div><div class="mc-genre">Action</div><div class="mc-title">Iron Mandate</div></div></div>
+        <div class="movie-card m10"><div class="mc-bg"><div class="mc-badge">4K</div><div class="mc-genre">Mystery</div><div class="mc-title">White Cipher</div></div></div>
+        <div class="movie-card m11"><div class="mc-bg"><div class="mc-badge">8K</div><div class="mc-genre">Crime</div><div class="mc-title">Obsidian Code</div></div></div>
+        <div class="movie-card m12"><div class="mc-bg"><div class="mc-badge">4K</div><div class="mc-genre">Fantasy</div><div class="mc-title">Ash Dynasty</div></div></div>
+      </div></div>
+      <button class="sl-btn sl-next" id="slNext"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     DEVICES
+═══════════════════════════════ -->
+<section id="devices">
+  <div class="sec-inner">
+    <div style="text-align:center;margin-bottom:3rem;" class="reveal">
+      <div class="eyebrow-dark" style="justify-content:center;">Compatibility</div>
+      <h2 class="sh-dark" style="margin:0 auto .8rem;">Watch on <span class="it">Any Device</span></h2>
+      <p class="sdesc-dark" style="margin:0 auto;">BEST IPTV works on every screen you own — set up in minutes, anywhere in the world.</p>
+    </div>
+    <div class="dev-grid reveal">
+      <div class="dev-card"><div class="dev-ico"><i class="fas fa-tv"></i></div><div class="dev-name">Smart TV</div></div>
+      <div class="dev-card"><div class="dev-ico"><i class="fab fa-android"></i></div><div class="dev-name">Android TV</div></div>
+      <div class="dev-card"><div class="dev-ico"><i class="fas fa-fire"></i></div><div class="dev-name">Firestick</div></div>
+      <div class="dev-card"><div class="dev-ico"><i class="fab fa-apple"></i></div><div class="dev-name">iPhone</div></div>
+      <div class="dev-card"><div class="dev-ico"><i class="fas fa-tablet-alt"></i></div><div class="dev-name">iPad</div></div>
+      <div class="dev-card"><div class="dev-ico"><i class="fas fa-satellite"></i></div><div class="dev-name">MAG Box</div></div>
+      <div class="dev-card"><div class="dev-ico"><i class="fab fa-windows"></i></div><div class="dev-name">Windows PC</div></div>
+      <div class="dev-card"><div class="dev-ico"><i class="fab fa-apple"></i></div><div class="dev-name">macOS</div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     APPS
+═══════════════════════════════ -->
+<section id="apps">
+  <div class="sec-inner">
+    <div class="reveal">
+      <div class="eyebrow">IPTV Players</div>
+      <h2 class="sh">Supported <span class="it">IPTV Apps</span></h2>
+      <p class="sdesc">Works with every major IPTV application — download, configure and stream in under 5 minutes.</p>
+    </div>
+    <div class="slider-outer reveal">
+      <button class="sl-btn sl-prev" id="apPrev"><i class="fas fa-chevron-left"></i></button>
+      <div class="slider-overflow"><div class="apps-rail" id="apTrack">
+        <div class="app-card"><div class="app-ico"><i class="fas fa-play"></i></div><div class="app-name">TiviMate</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+        <div class="app-card"><div class="app-ico"><i class="fas fa-signal"></i></div><div class="app-name">IPTV Smarters</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+        <div class="app-card"><div class="app-ico"><i class="fas fa-broadcast-tower"></i></div><div class="app-name">XCIPTV</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+        <div class="app-card"><div class="app-ico"><i class="fas fa-tv"></i></div><div class="app-name">IBO Player</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+        <div class="app-card"><div class="app-ico"><i class="fas fa-satellite-dish"></i></div><div class="app-name">Smart IPTV</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+        <div class="app-card"><div class="app-ico"><i class="fas fa-compass"></i></div><div class="app-name">OTT Navigator</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+        <div class="app-card"><div class="app-ico"><i class="fas fa-film"></i></div><div class="app-name">Flix IPTV</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+        <div class="app-card"><div class="app-ico"><i class="fas fa-stream"></i></div><div class="app-name">GSE Smart IPTV</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+        <div class="app-card"><div class="app-ico"><i class="fas fa-network-wired"></i></div><div class="app-name">Net IPTV</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+        <div class="app-card"><div class="app-ico"><i class="fas fa-medal"></i></div><div class="app-name">Perfect Player</div><a href="https://wa.me/212691336847" class="app-btn" target="_blank">Setup</a></div>
+      </div></div>
+      <button class="sl-btn sl-next" id="apNext"><i class="fas fa-chevron-right"></i></button>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     PRICING
+═══════════════════════════════ -->
+<section id="pricing">
+  <div class="sec-inner">
+    <div style="text-align:center;margin-bottom:3rem;" class="reveal">
+      <div class="eyebrow-dark" style="justify-content:center;">Subscription Plans</div>
+      <h2 class="sh-dark" style="margin:0 auto .8rem;">Choose Your <span class="it">Premium Plan</span></h2>
+      <p class="sdesc-dark" style="margin:0 auto;">All plans include full 8K access, complete VOD library, EPG guide, and 24/7 VIP support. No contracts.</p>
+    </div>
+
+    <div class="price-grid reveal">
+      <div class="price-card">
+        <div class="price-dur">1 <sub>Month</sub></div>
+        <div class="price-label">Starter · −10% vs Reseller</div>
+        <div class="p-div"></div>
+        <ul class="p-list">
+          <li><i class="fas fa-check"></i>20,000+ Live Channels</li>
+          <li><i class="fas fa-check"></i>60,000+ VOD Content</li>
+          <li><i class="fas fa-check"></i>8K / 4K / FHD Quality</li>
+          <li><i class="fas fa-check"></i>EPG TV Guide</li>
+          <li><i class="fas fa-check"></i>24/7 Support</li>
+          <li><i class="fas fa-check"></i>1 Device</li>
+        </ul>
+        <a href="https://wa.me/212691336847" class="btn btn-outline-b btn-full" target="_blank"><i class="fab fa-whatsapp"></i> Buy Now</a>
+      </div>
+      <div class="price-card">
+        <div class="price-dur">3 <sub>Months</sub></div>
+        <div class="price-label">Value · Save 20% · −10% vs Reseller</div>
+        <div class="p-div"></div>
+        <ul class="p-list">
+          <li><i class="fas fa-check"></i>20,000+ Live Channels</li>
+          <li><i class="fas fa-check"></i>60,000+ VOD Content</li>
+          <li><i class="fas fa-check"></i>8K / 4K / FHD Quality</li>
+          <li><i class="fas fa-check"></i>EPG TV Guide</li>
+          <li><i class="fas fa-check"></i>24/7 Support</li>
+          <li><i class="fas fa-check"></i>2 Devices</li>
+        </ul>
+        <a href="https://wa.me/212691336847" class="btn btn-outline-b btn-full" target="_blank"><i class="fab fa-whatsapp"></i> Buy Now</a>
+      </div>
+      <div class="price-card hot">
+        <div class="hot-tag">Most Popular</div>
+        <div class="price-dur">6 <sub>Months</sub></div>
+        <div class="price-label">Premium · Save 40% · −10% vs Reseller</div>
+        <div class="p-div"></div>
+        <ul class="p-list">
+          <li><i class="fas fa-check"></i>20,000+ Live Channels</li>
+          <li><i class="fas fa-check"></i>60,000+ VOD Content</li>
+          <li><i class="fas fa-check"></i>8K / 4K / FHD Quality</li>
+          <li><i class="fas fa-check"></i>EPG TV Guide</li>
+          <li><i class="fas fa-check"></i>24/7 Priority Support</li>
+          <li><i class="fas fa-check"></i>3 Devices</li>
+        </ul>
+        <a href="https://wa.me/212691336847" class="btn btn-white btn-full" target="_blank"><i class="fab fa-whatsapp"></i> Buy Now</a>
+      </div>
+      <div class="price-card">
+        <div class="price-dur">12 <sub>Months</sub></div>
+        <div class="price-label">Elite · Save 60% · −10% vs Reseller</div>
+        <div class="p-div"></div>
+        <ul class="p-list">
+          <li><i class="fas fa-check"></i>20,000+ Live Channels</li>
+          <li><i class="fas fa-check"></i>60,000+ VOD Content</li>
+          <li><i class="fas fa-check"></i>8K / 4K / FHD Quality</li>
+          <li><i class="fas fa-check"></i>EPG TV Guide</li>
+          <li><i class="fas fa-check"></i>24/7 VIP Support</li>
+          <li><i class="fas fa-check"></i>5 Devices</li>
+        </ul>
+        <a href="https://wa.me/212691336847" class="btn btn-outline-b btn-full" target="_blank"><i class="fab fa-whatsapp"></i> Buy Now</a>
+      </div>
+    </div>
+
+    <!-- RESELLER -->
+    <div class="reseller-wrap reveal">
+      <div class="reseller-card">
+        <div class="rs-inner">
+          <div class="rs-left">
+            <div class="rs-tag">✕3 Volume Plan</div>
+            <div class="rs-kicker">
+              <div class="rs-kicker-line"></div>
+              <span class="rs-kicker-text">Reseller Program</span>
+            </div>
+            <div class="rs-title">
+              Build Your Own<br><span class="it">IPTV Business</span>
+            </div>
+            <div class="rs-price-row">
+              <div class="rs-price">250€</div>
+              <div class="rs-price-note">one-time<br>payment</div>
+            </div>
+            <div class="rs-credits-badge"><i class="fas fa-coins"></i> 120 Credits Included — Resell &amp; Profit</div>
+            <p class="rs-desc">
+              Launch your own IPTV brand powered by BEST IPTV infrastructure. 120 reseller credits, custom DNS white-labeling, daily free trials — sell subscriptions worldwide with no VPN required and full Ultra 4K quality for every client.
+            </p>
+            <div class="rs-btns">
+              <a href="https://wa.me/212691336847" class="btn btn-white" target="_blank"><i class="fab fa-whatsapp"></i> Start Reselling Now</a>
+              <a href="https://wa.me/212691336847" class="btn btn-outline-w" target="_blank"><i class="fas fa-info-circle"></i> Ask Questions</a>
+            </div>
+            <div class="rs-note">
+              Individual plans are priced −10% lower than reseller credit cost — your profit margin is built in by design.
+            </div>
+          </div>
+          <div class="rs-right">
+            <div class="rs-feat-title">Everything in the Reseller Pack</div>
+            <div class="rs-feat">
+              <div class="rs-feat-ico"><i class="fas fa-coins"></i></div>
+              <div><div class="rs-feat-ttl">120 Reseller Credits</div><div class="rs-feat-txt">Each credit = 1 month subscription. Distribute, sell, or gift to clients at your price.</div></div>
+            </div>
+            <div class="rs-feat">
+              <div class="rs-feat-ico"><i class="fas fa-flask"></i></div>
+              <div><div class="rs-feat-ttl">10 Free Trials Per Day</div><div class="rs-feat-txt">Offer daily free trials to attract clients — automatically reset every 24 hours.</div></div>
+            </div>
+            <div class="rs-feat">
+              <div class="rs-feat-ico"><i class="fas fa-headset"></i></div>
+              <div><div class="rs-feat-ttl">1 Priority Ticket / Day</div><div class="rs-feat-txt">Daily dedicated support ticket with priority handling for your reseller account.</div></div>
+            </div>
+            <div class="rs-feat">
+              <div class="rs-feat-ico"><i class="fas fa-server"></i></div>
+              <div><div class="rs-feat-ttl">Custom DNS — Your Brand</div><div class="rs-feat-txt">Point your own domain to our servers. Clients see your brand. Full white-label.</div></div>
+            </div>
+            <div class="rs-feat">
+              <div class="rs-feat-ico"><i class="fas fa-globe"></i></div>
+              <div><div class="rs-feat-ttl">Worldwide — No VPN</div><div class="rs-feat-txt">Streams work in every country without VPN. Full speed, direct connection.</div></div>
+            </div>
+            <div class="rs-feat">
+              <div class="rs-feat-ico"><i class="fas fa-photo-video"></i></div>
+              <div><div class="rs-feat-ttl">Ultra 4K for All Clients</div><div class="rs-feat-txt">Every subscription you sell delivers full Ultra 4K / FHD — premium quality guaranteed.</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     CHANNELS
+═══════════════════════════════ -->
+<section id="channels">
+  <div class="sec-inner">
+    <div class="reveal">
+      <div class="eyebrow">Channel Library</div>
+      <h2 class="sh">20,000+ <span class="it">Premium Channels</span></h2>
+      <p class="sdesc">The world's most complete IPTV channel list — every country, every category, every sport.</p>
+    </div>
+    <div class="ch-grid reveal">
+      <div class="ch-card"><div class="ch-em">🇺🇸</div><div><div class="ch-name">USA Channels</div><div class="ch-cnt">4,000+ Channels</div></div></div>
+      <div class="ch-card"><div class="ch-em">🇬🇧</div><div><div class="ch-name">UK Channels</div><div class="ch-cnt">1,200+ Channels</div></div></div>
+      <div class="ch-card"><div class="ch-em">🇨🇦</div><div><div class="ch-name">Canada Channels</div><div class="ch-cnt">800+ Channels</div></div></div>
+      <div class="ch-card"><div class="ch-em">⚽</div><div><div class="ch-name">Sports Channels</div><div class="ch-cnt">3,500+ Channels</div></div></div>
+      <div class="ch-card"><div class="ch-em">🌙</div><div><div class="ch-name">Arabic Channels</div><div class="ch-cnt">2,000+ Channels</div></div></div>
+      <div class="ch-card"><div class="ch-em">🇪🇺</div><div><div class="ch-name">European Channels</div><div class="ch-cnt">2,500+ Channels</div></div></div>
+      <div class="ch-card"><div class="ch-em">🧸</div><div><div class="ch-name">Kids Channels</div><div class="ch-cnt">600+ Channels</div></div></div>
+      <div class="ch-card"><div class="ch-em">🎬</div><div><div class="ch-name">Entertainment</div><div class="ch-cnt">4,000+ Channels</div></div></div>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem;">
+      <a href="https://wa.me/212691336847" class="btn btn-white" target="_blank"><i class="fab fa-whatsapp"></i> View Full Channel List</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     TESTIMONIALS
+═══════════════════════════════ -->
+<section id="testimonials">
+  <div class="sec-inner">
+    <div style="text-align:center;margin-bottom:3rem;" class="reveal">
+      <div class="eyebrow-dark" style="justify-content:center;">Client Reviews</div>
+      <h2 class="sh-dark" style="margin:0 auto .8rem;">Words from Our <span class="it">Subscribers</span></h2>
+      <p class="sdesc-dark" style="margin:0 auto;">Thousands of satisfied subscribers streaming in 8K every day.</p>
+    </div>
+    <div class="rev-grid reveal">
+      <div class="rev-card"><span class="rev-stars">★★★★★</span><p class="rev-text">"The 8K quality on my new Samsung TV is absolutely jaw-dropping. I had no idea IPTV could look this good. The sports channels in ultra HD are a completely different experience."</p><div class="rev-meta"><div class="rev-av">M</div><div><div class="rev-name">Michael T.</div><div class="rev-loc">Toronto, Canada</div></div></div></div>
+      <div class="rev-card"><span class="rev-stars">★★★★★</span><p class="rev-text">"I've tried every IPTV service out there. BEST IPTV is on a completely different level. Zero buffering, perfect picture, incredible channel selection. Worth every single cent."</p><div class="rev-meta"><div class="rev-av">S</div><div><div class="rev-name">Sarah K.</div><div class="rev-loc">Vancouver, BC</div></div></div></div>
+      <div class="rev-card"><span class="rev-stars">★★★★★</span><p class="rev-text">"Set up was effortless and the WhatsApp support is incredibly fast. The picture quality genuinely made my family stop and ask what service this was. Simply stunning."</p><div class="rev-meta"><div class="rev-av">J</div><div><div class="rev-name">James R.</div><div class="rev-loc">Montreal, QC</div></div></div></div>
+      <div class="rev-card"><span class="rev-stars">★★★★★</span><p class="rev-text">"The Arabic channels in 8K are extraordinary. My parents can watch their programs in the absolute best quality. The support team helped us set everything up perfectly."</p><div class="rev-meta"><div class="rev-av">A</div><div><div class="rev-name">Ahmed B.</div><div class="rev-loc">Calgary, AB</div></div></div></div>
+      <div class="rev-card"><span class="rev-stars">★★★★★</span><p class="rev-text">"60,000 movies — I haven't even scratched the surface. The 8K movie experience feels like a private cinema. Absolutely elite service in every dimension."</p><div class="rev-meta"><div class="rev-av">L</div><div><div class="rev-name">Lisa M.</div><div class="rev-loc">Ottawa, ON</div></div></div></div>
+      <div class="rev-card"><span class="rev-stars">★★★★★</span><p class="rev-text">"One full year with zero issues. The server uptime is genuinely 99.9% — I've never dropped during a live match. This is the gold standard — or rather the platinum standard."</p><div class="rev-meta"><div class="rev-av">D</div><div><div class="rev-name">Daniel F.</div><div class="rev-loc">Edmonton, AB</div></div></div></div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     TICKER
+═══════════════════════════════ -->
+<div id="ticker">
+  <div class="tick-inner">
+    <div class="tick-chip"><i class="fas fa-tv"></i> Samsung 8K</div>
+    <div class="tick-chip"><i class="fas fa-tv"></i> LG OLED</div>
+    <div class="tick-chip"><i class="fas fa-tv"></i> Sony Bravia</div>
+    <div class="tick-chip"><i class="fas fa-fire"></i> Amazon Firestick</div>
+    <div class="tick-chip"><i class="fab fa-android"></i> Android TV</div>
+    <div class="tick-chip"><i class="fab fa-apple"></i> Apple TV 4K</div>
+    <div class="tick-chip"><i class="fas fa-satellite"></i> Nvidia Shield</div>
+    <div class="tick-chip"><i class="fas fa-satellite"></i> MAG Box</div>
+    <div class="tick-chip"><i class="fab fa-windows"></i> Windows PC</div>
+    <div class="tick-chip"><i class="fab fa-apple"></i> macOS</div>
+    <div class="tick-chip"><i class="fas fa-tv"></i> Samsung 8K</div>
+    <div class="tick-chip"><i class="fas fa-tv"></i> LG OLED</div>
+    <div class="tick-chip"><i class="fas fa-tv"></i> Sony Bravia</div>
+    <div class="tick-chip"><i class="fas fa-fire"></i> Amazon Firestick</div>
+    <div class="tick-chip"><i class="fab fa-android"></i> Android TV</div>
+    <div class="tick-chip"><i class="fab fa-apple"></i> Apple TV 4K</div>
+    <div class="tick-chip"><i class="fas fa-satellite"></i> Nvidia Shield</div>
+    <div class="tick-chip"><i class="fas fa-satellite"></i> MAG Box</div>
+    <div class="tick-chip"><i class="fab fa-windows"></i> Windows PC</div>
+    <div class="tick-chip"><i class="fab fa-apple"></i> macOS</div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════
+     FAQ
+═══════════════════════════════ -->
+<section id="faq">
+  <div class="sec-inner">
+    <div class="faq-layout">
+      <div class="reveal">
+        <div class="eyebrow">FAQ</div>
+        <h2 class="sh">Common <span class="it">Questions</span></h2>
+        <p class="sdesc">Everything you need to know before you start streaming in 8K.</p>
+        <div class="faq-stack">
+          <div class="faq-item"><div class="faq-q">Is BEST IPTV legal? <i class="fas fa-chevron-down"></i></div><div class="faq-ans"><p>IPTV technology is completely legal. The legality depends on the specific content you access. We provide connection services to publicly available streams. Please verify content regulations in your region.</p></div></div>
+          <div class="faq-item"><div class="faq-q">What devices support 8K streaming? <i class="fas fa-chevron-down"></i></div><div class="faq-ans"><p>8K requires an 8K-capable TV and at least 100Mbps internet. For 4K/FHD, any Smart TV, Firestick, iPhone, iPad, Android, Windows PC, Mac, or MAG box works perfectly.</p></div></div>
+          <div class="faq-item"><div class="faq-q">Do you offer free trials? <i class="fas fa-chevron-down"></i></div><div class="faq-ans"><p>Absolutely. We offer complimentary trial periods so you can experience the quality difference before subscribing. Contact us via WhatsApp and we'll set you up immediately.</p></div></div>
+          <div class="faq-item"><div class="faq-q">How quickly will I receive my account? <i class="fas fa-chevron-down"></i></div><div class="faq-ans"><p>Account delivery is instant — typically within minutes of payment confirmation. Our team operates 24 hours a day, 7 days a week.</p></div></div>
+          <div class="faq-item"><div class="faq-q">What internet speed do I need for 8K? <i class="fas fa-chevron-down"></i></div><div class="faq-ans"><p>For 8K: minimum 80–100 Mbps. For 4K: 25 Mbps. For HD/FHD: 10 Mbps. Our adaptive streaming adjusts automatically to your connection speed.</p></div></div>
+          <div class="faq-item"><div class="faq-q">Do you provide installation support? <i class="fas fa-chevron-down"></i></div><div class="faq-ans"><p>Yes — our 24/7 WhatsApp team guides you through installation step-by-step on any device. Average setup time is under 5 minutes.</p></div></div>
+          <div class="faq-item"><div class="faq-q">How does the Reseller Program work? <i class="fas fa-chevron-down"></i></div><div class="faq-ans"><p>For 250€ you receive 120 reseller credits, 10 free trials per day, 1 priority support ticket daily, custom DNS white-labeling, and worldwide no-VPN access in Ultra 4K.</p></div></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="faq-aside">
+          <div class="fa-ico"><i class="fab fa-whatsapp"></i></div>
+          <div class="fa-title">Still Have Questions?</div>
+          <p class="fa-sub">Our VIP support team is available 24/7 via WhatsApp — instant answers and setup help from real human experts.</p>
+          <a href="https://wa.me/212691336847" class="btn btn-black btn-full" target="_blank"><i class="fab fa-whatsapp"></i> Chat With Us Now</a>
+          <p class="fa-resp">Average response: under 5 minutes</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════
+     CONTACT
+═══════════════════════════════ -->
+<section id="contact">
+  <div class="sec-inner">
+    <div class="contact-layout">
+      <div class="reveal">
+        <div class="eyebrow-dark">Get In Touch</div>
+        <h2 class="sh-dark">Need Assistance?<br><span class="it">Contact Us</span></h2>
+        <p class="sdesc-dark">Our dedicated VIP support team is on standby around the clock — 24 hours, 7 days a week, 365 days a year.</p>
+        <div class="contact-items">
+          <div class="c-item"><div class="c-ico"><i class="fas fa-envelope"></i></div><div><div class="c-lbl">Email Address</div><div class="c-val">contact@bestiptv.net</div></div></div>
+          <div class="c-item"><div class="c-ico"><i class="fab fa-whatsapp"></i></div><div><div class="c-lbl">WhatsApp</div><div class="c-val">+212 691-336847</div></div></div>
+          <div class="c-item"><div class="c-ico"><i class="fas fa-clock"></i></div><div><div class="c-lbl">Support Hours</div><div class="c-val">24/7 — Always Online</div></div></div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="contact-box">
+          <div class="wa-circle"><i class="fab fa-whatsapp"></i></div>
+          <div class="cb-title">Chat on WhatsApp</div>
+          <p class="cb-sub">Start a free trial, ask questions, or get step-by-step 8K setup assistance — we respond in under 5 minutes.</p>
+          <a href="https://wa.me/212691336847" class="btn btn-white btn-full" target="_blank"><i class="fab fa-whatsapp"></i> Start WhatsApp Chat</a>
+          <p class="cb-note">BEST IPTV · Premium Streaming Service</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div class="foot-grid">
+      <div>
+        <div class="f-logo-wrap">
+          <div class="f-logo-mark"><i class="fas fa-signal"></i></div>
+          <span class="f-logo-name">BEST <em>IPTV</em></span>
+        </div>
+        <p class="f-desc">The world's finest IPTV service — 20,000+ live channels and 60,000+ movies in true 8K / 4K quality. The pinnacle of premium streaming.</p>
+        <div class="f-socials">
+          <a href="#" class="f-soc"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="f-soc"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="f-soc"><i class="fab fa-telegram"></i></a>
+          <a href="https://wa.me/212691336847" class="f-soc" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+      <div class="foot-col">
+        <h5>Navigation</h5>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#pricing">Plans & Pricing</a></li>
+          <li><a href="#channels">Channels</a></li>
+          <li><a href="#devices">Devices</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Support</h5>
+        <ul>
+          <li><a href="#how">Setup Guide</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#apps">IPTV Apps</a></li>
+          <li><a href="https://wa.me/212691336847" target="_blank">Live Chat</a></li>
+          <li><a href="mailto:contact@bestiptv.net">Email Us</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p class="f-copy">© 2025 BEST IPTV — All Rights Reserved. The Pinnacle of Premium Streaming.</p>
+      <div class="f-policies">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Refund</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- WA FLOAT -->
+<a href="https://wa.me/212691336847" class="wa-float" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+
+<script>
+(function(){
+  'use strict';
+
+  /* Custom cursor */
+  var cursor = document.getElementById('cursor');
+  var ring   = document.getElementById('cursorRing');
+  if(cursor && ring){
+    document.addEventListener('mousemove', function(e){
+      cursor.style.left = e.clientX + 'px';
+      cursor.style.top  = e.clientY + 'px';
+      ring.style.left   = e.clientX + 'px';
+      ring.style.top    = e.clientY + 'px';
+    });
+    document.querySelectorAll('a, button, .feat-card, .step-card, .dev-card, .rev-card, .faq-q').forEach(function(el){
+      el.addEventListener('mouseenter', function(){ ring.classList.add('hover'); });
+      el.addEventListener('mouseleave', function(){ ring.classList.remove('hover'); });
+    });
+  }
+
+  /* Header scroll */
+  var hdr = document.getElementById('hdr');
+  var tick = false;
+  window.addEventListener('scroll', function(){
+    if(!tick){
+      requestAnimationFrame(function(){
+        hdr.classList.toggle('on', window.scrollY > 40);
+        tick = false;
+      });
+      tick = true;
+    }
+  }, {passive:true});
+
+  /* Hamburger */
+  document.getElementById('ham').addEventListener('click', function(){
+    document.getElementById('nav').classList.toggle('open');
+  });
+  document.querySelectorAll('#nav a').forEach(function(a){
+    a.addEventListener('click', function(){
+      document.getElementById('nav').classList.remove('open');
+    });
+  });
+
+  /* Scroll reveal */
+  var ro = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add('vis'); ro.unobserve(e.target); }
+    });
+  }, {threshold:0.08, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){ ro.observe(el); });
+
+  /* Stagger children */
+  [
+    '.feat-list .feat-card',
+    '.how-grid .step-card',
+    '.dev-grid .dev-card',
+    '.price-grid .price-card',
+    '.ch-grid .ch-card',
+    '.rev-grid .rev-card',
+    '.rs-right .rs-feat'
+  ].forEach(function(sel){
+    document.querySelectorAll(sel).forEach(function(el, i){
+      el.style.transitionDelay = (i * 0.07) + 's';
+      el.classList.add('reveal');
+      ro.observe(el);
+    });
+  });
+
+  /* Slider factory */
+  function makeSlider(trackId, prevId, nextId, itemW, gap){
+    var track = document.getElementById(trackId);
+    var prev  = document.getElementById(prevId);
+    var next  = document.getElementById(nextId);
+    if(!track||!prev||!next) return;
+    var pos=0, step=(itemW+gap)*3;
+    function clamp(v){ return Math.min(0, Math.max(-(track.scrollWidth-track.parentElement.clientWidth), v)); }
+    function go(d){ pos=clamp(pos+d); track.style.transform='translateX('+pos+'px)'; }
+    next.addEventListener('click', function(){ go(-step); });
+    prev.addEventListener('click', function(){ go( step); });
+    var startX=0;
+    track.addEventListener('touchstart', function(e){ startX=e.touches[0].clientX; },{passive:true});
+    track.addEventListener('touchend', function(e){ var dx=e.changedTouches[0].clientX-startX; if(Math.abs(dx)>40) go(dx>0?step:-step); },{passive:true});
+  }
+  makeSlider('slTrack','slPrev','slNext',150,12);
+  makeSlider('apTrack','apPrev','apNext',158,12);
+
+  /* FAQ accordion */
+  document.querySelectorAll('.faq-q').forEach(function(q){
+    q.addEventListener('click', function(){
+      var item = this.parentElement;
+      var wasOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(function(i){ i.classList.remove('open'); });
+      if(!wasOpen) item.classList.add('open');
+    });
+  });
+
+})();
+</script>
+</body>
+</html>
